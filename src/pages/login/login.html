@@ -1,0 +1,30 @@
+<ion-content class="fond">
+	<!-- <div class="logo">
+		<img src="assets/img/appicon.svg" alt="Ionic logo">
+	</div> -->
+	<div ion_fixed>
+		<div class="logo">
+			<img src=""/>
+		</div>
+		<form #loginForm="ngForm" novalidate>
+			<ion-list no-lines>
+				<ion-item>
+					<ion-input name="email" type="email" spellcheck="false" placeholder="E-mail" autocapitalize="off"
+						required>
+					</ion-input>
+	      </ion-item>
+
+				<ion-item>
+					<ion-input  name="password" type="password" placeholder="Mot de passe" required>
+					</ion-input>
+				</ion-item>
+	    </ion-list>
+
+			<ion-row responsive-xs>
+				<ion-col>
+					<button ion-button (click)="pass()" type="submit" block>SE CONNECTER</button>
+				</ion-col>
+			</ion-row>
+		</form>
+	</div>
+</ion-content>

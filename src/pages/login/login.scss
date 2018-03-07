@@ -1,0 +1,23 @@
+.fond{
+  background-image: url("../../assets/imgs/PAGE_ACCUEIL_750x1335px_P1.jpg");
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    flex: 1;
+    flex-direction: column;
+}
+.item{
+  background-color: transparent !important;
+}
+.logo{
+  margin-bottom: 50%;
+  margin-top: 60%;
+}
+.button {
+  border-radius: 0px;
+  height: 2em;
+  font-size: 1.6rem;
+}
+.button-block {
+  width: 60%;
+  margin: 0 auto;
+}
